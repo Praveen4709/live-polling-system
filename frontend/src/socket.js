@@ -1,4 +1,4 @@
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:4000"); // backend URL
+const socket = io("https://live-polling-system-bxq2.onrender.com"); // backend URL
 export default socket;
